@@ -15,6 +15,7 @@
     "vue-router": "^4.2.5"
   },
   "dependencies": {
+    "@blowstack/ckeditor5-full-free-build": "^27.0.1",
     "@ckeditor/ckeditor5-vue": "^5.1.0"
   }
 }

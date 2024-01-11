@@ -5,6 +5,9 @@ settings:
   excludeLinksFromLockfile: false
 
 dependencies:
+  '@blowstack/ckeditor5-full-free-build':
+    specifier: ^27.0.1
+    version: 27.0.1
   '@ckeditor/ckeditor5-vue':
     specifier: ^5.1.0
     version: 5.1.0
@@ -366,6 +369,11 @@ packages:
       '@babel/helper-validator-identifier': 7.22.20
       to-fast-properties: 2.0.0
     dev: true
+
+  /@blowstack/ckeditor5-full-free-build@27.0.1:
+    resolution: { integrity: sha512-JuzZhsFATSiH1NBtv5R/ym//uRuFHBo8DMcREzldyDF6vrxaAni8jimHHr9i9k7y3wXE4WgiRrjcZcENPNh/+g== }
+    engines: { node: '>=12.0.0', npm: '>=5.7.1' }
+    dev: false
 
   /@ckeditor/ckeditor5-vue@5.1.0:
     resolution: { integrity: sha512-KEx4Tj2Irr4ZbLG8LnaKpb0Dgd8qmLmKFWeiKkQwM3RAAeYRYOCcBVB2Y168I9KA8wRosPxgOO9jbQ92yopYHA== }
