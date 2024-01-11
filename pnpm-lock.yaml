@@ -4,6 +4,11 @@ settings:
   autoInstallPeers: true
   excludeLinksFromLockfile: false
 
+dependencies:
+  '@ckeditor/ckeditor5-vue':
+    specifier: ^5.1.0
+    version: 5.1.0
+
 devDependencies:
   nuxt:
     specifier: ^3.9.0
@@ -361,6 +366,12 @@ packages:
       '@babel/helper-validator-identifier': 7.22.20
       to-fast-properties: 2.0.0
     dev: true
+
+  /@ckeditor/ckeditor5-vue@5.1.0:
+    resolution: { integrity: sha512-KEx4Tj2Irr4ZbLG8LnaKpb0Dgd8qmLmKFWeiKkQwM3RAAeYRYOCcBVB2Y168I9KA8wRosPxgOO9jbQ92yopYHA== }
+    engines: { node: '>=16.0.0', npm: '>=5.7.1' }
+    requiresBuild: true
+    dev: false
 
   /@cloudflare/kv-asset-handler@0.3.0:
     resolution: { integrity: sha512-9CB/MKf/wdvbfkUdfrj+OkEwZ5b7rws0eogJ4293h+7b6KX5toPwym+VQKmILafNB9YiehqY0DlNrDcDhdWHSQ== }
