@@ -2,7 +2,9 @@
   <div>
     <h1 class="container mt-3 mb-3">Sample CKEditor with Nuxt.js</h1>
     <div class="container">
-      <rich-editor v-model="editorInput" :config="editorConfig"/>
+      <client-only placeholder="loading...">
+        <rich-editor value="editorInput" @input="event => editorInput = event" />
+      </client-only>
     </div>
     <div class="container mt-3">
       <div class="row">
@@ -30,27 +32,7 @@ export default {
   },
   data() {
     return {
-      editorInput: '',
-      editorConfig: {
-        width: 'auto',
-        plugins: [
-          'Table',
-          'TableProperties',
-          'Bold',
-          'Link',
-          'List',
-          'FontSize',
-          `MathType`,
-          `Image`,
-          `ImageUpload`,
-          'SimpleUploadAdapter',
-          `MediaEmbed`
-        ],
-        simpleUpload: {
-          // The URL that the images are uploaded to.
-          uploadUrl: 'https://yourwebsite.com/api/upload-image',
-        },
-      }
+      editorInput: ''
     }
   },
 }
