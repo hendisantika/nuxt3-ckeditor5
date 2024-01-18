@@ -20,6 +20,7 @@
     "@ckeditor/ckeditor5-table": "^40.2.0",
     "@ckeditor/ckeditor5-theme-lark": "^40.2.0",
     "@ckeditor/ckeditor5-ui": "^40.2.0",
+    "@ckeditor/ckeditor5-upload": "^40.2.0",
     "@ckeditor/ckeditor5-vue": "^5.1.0",
     "@ckeditor/vite-plugin-ckeditor5": "^0.1.3"
   }
