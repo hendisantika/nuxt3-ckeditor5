@@ -20,10 +20,20 @@
     </div>
   </div>
 </template>
+<style>
+/* page-with-editor.css */
+body .ck-content .table table, body .ck-content .table td {
+  border: dotted 1px #ddd;
+}
+
+/* page-with-editor-content.css */
+body .ck-content .table table, body .ck-content .table td {
+  border: none;
+}
+</style>
 <script>
 
 import RichEditor from '../components/rich-editor.vue';
-
 
 
 export default {

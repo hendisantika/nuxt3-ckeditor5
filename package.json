@@ -10,18 +10,19 @@
     "postinstall": "nuxt prepare"
   },
   "devDependencies": {
-    "nuxt": "^3.9.0",
-    "vue": "^3.4.6",
+    "nuxt": "^3.10.2",
+    "vue": "^3.4.19",
     "vue-router": "^4.2.5"
   },
   "dependencies": {
-    "@ckeditor/ckeditor5-build-classic": "^40.2.0",
-    "@ckeditor/ckeditor5-document-outline": "^40.2.0",
-    "@ckeditor/ckeditor5-table": "^40.2.0",
-    "@ckeditor/ckeditor5-theme-lark": "^40.2.0",
-    "@ckeditor/ckeditor5-ui": "^40.2.0",
-    "@ckeditor/ckeditor5-upload": "^40.2.0",
+    "@ckeditor/ckeditor5-build-classic": "^41.1.0",
+    "@ckeditor/ckeditor5-document-outline": "^41.1.0",
+    "@ckeditor/ckeditor5-table": "^41.1.0",
+    "@ckeditor/ckeditor5-theme-lark": "^41.1.0",
+    "@ckeditor/ckeditor5-ui": "^41.1.0",
+    "@ckeditor/ckeditor5-upload": "^41.1.0",
     "@ckeditor/ckeditor5-vue": "^5.1.0",
-    "@ckeditor/vite-plugin-ckeditor5": "^0.1.3"
+    "@ckeditor/vite-plugin-ckeditor5": "^0.1.3",
+    "npm-check-updates": "^16.14.15"
   }
 }
