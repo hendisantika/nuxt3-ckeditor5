@@ -2,9 +2,7 @@
   <div>
     <h1 class="container mt-3 mb-3">Sample CKEditor with Nuxt.js</h1>
     <div class="container">
-      <client-only placeholder="loading...">
-        <rich-editor value="editorInput" @input="event => editorInput = event" />
-      </client-only>
+      <rich-editor :value="editorInput" @input="event => editorInput = event" />
     </div>
     <div class="container mt-3">
       <div class="row">
@@ -33,13 +31,7 @@ body .ck-content .table table, body .ck-content .table td {
 </style>
 <script>
 
-import RichEditor from '../components/rich-editor.vue';
-
-
 export default {
-  components: {
-    richEditor: RichEditor
-  },
   data() {
     return {
       editorInput: ''
