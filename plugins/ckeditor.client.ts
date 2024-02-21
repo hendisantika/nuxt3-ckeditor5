@@ -1,14 +1,15 @@
-import CKEditor from '@ckeditor/ckeditor5-vue';
-import Editor from '~/lib/CustomEditor';
+import CKEditor from "@ckeditor/ckeditor5-vue";
+// import ClassicEditor from "@ckeditor/ckeditor5-build-classic";
+import Editor from "~/lib/CustomEditor";
 
-
-export default defineNuxtPlugin(() => {
+export default defineNuxtPlugin((nuxtApp) => {
+  nuxtApp.vueApp.use(CKEditor);
   return {
-      provide: {
-          ckeditor: {
-            classic: Editor,
-            editor: CKEditor
-          }
-      }
-  }
+    provide: {
+      ckeditor: {
+        customEditor: Editor,
+        // classicEditor: ClassicEditor,
+      },
+    },
+  };
 });
