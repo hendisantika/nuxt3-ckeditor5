@@ -38,6 +38,8 @@ yarn dev
 bun run dev
 ```
 
+Open your favorite browser: localhost:3000/sample-editor
+
 ## Production
 
 Build the application for production:
@@ -73,3 +75,10 @@ bun run preview
 ```
 
 Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+
+### Image Screen shot
+
+Sample editor
+
+![Sample editor](img/sample.png "Sample editor")
+
