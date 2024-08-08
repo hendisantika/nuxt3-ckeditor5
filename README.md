@@ -38,7 +38,7 @@ yarn dev
 bun run dev
 ```
 
-Open your favorite browser: localhost:3000/sample-editor
+Open your favorite browser: http://localhost:3000/sample-editor
 
 ## Production
 
